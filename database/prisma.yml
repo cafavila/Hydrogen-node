@@ -1,0 +1,17 @@
+# El HTTP endpoint para tu API Prisma
+
+#endpoint: ''
+endpoint: http://localhost:4466/hydrogendb/dev
+#endpoint: https://us1.prisma.sh/cesar-avila-frias-99f76c/hydrogen/dev
+
+# Referencia al modelo de la base de datos
+datamodel: datamodel.graphql
+
+# Acceder a la base de datos solo a traves de JWT
+#secret: mysecret123
+secret: hydroadmin123
+
+# Deploy Hook
+hooks:
+  post-deploy:
+    - graphql get-schema --project database

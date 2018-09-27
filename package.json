@@ -1,0 +1,29 @@
+{
+  "name": "hydrogen-node",
+  "version": "1.0.0",
+  "description": "API de Servidor de estados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cafavila/Hydrogen-node.git"
+  },
+  "keywords": [
+    "API",
+    "graphQl"
+  ],
+  "author": "cavila@adimen.cl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cafavila/Hydrogen-node/issues"
+  },
+  "homepage": "https://github.com/cafavila/Hydrogen-node#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "graphql-yoga": "^1.16.2",
+    "jsonwebtoken": "^8.3.0",
+    "prisma-binding": "^2.1.6"
+  }
+}
